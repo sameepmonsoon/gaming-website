@@ -4,7 +4,7 @@ const Navbar = (props) => {
   const { links } = props;
   console.log(links);
   return (
-    <div className="fixed h-[6.5rem] w-full bg-background font-[oswald,sans]] uppercase flex justify-start sm:justify-around items-center px-10 text-white">
+    <div className="fixed z-[10] h-[6.5rem] w-full bg-background font-[oswald,sans]] uppercase flex justify-start sm:justify-around items-center px-10 text-white">
       <div
         className="logo font-[1000] text-white text-[30px] bg-red min-w-[8rem] flex items-center justify-center border-[2px] border-yellow rounded-[2px]"
         style={{

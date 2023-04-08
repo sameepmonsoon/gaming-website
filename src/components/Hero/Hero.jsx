@@ -4,11 +4,10 @@ const Hero = () => {
   return (
     <div className="h-screen w-full flex flex-col items-center justify-around bg-red/80 text-white">
       <div
-        className="flex flex-col justify-center items-center
+        className="flex flex-col justify-center items-center w-full
       ">
-        <h4>Your</h4>
         <h1 className="uppercase italic font-[1000] text-[10rem] font-sans z-1">
-          Game
+        just  Game
         </h1>
         <span>V1.</span>
         <div className="flex w-full h-[10rem] items-center justify-center gap-x-10">
