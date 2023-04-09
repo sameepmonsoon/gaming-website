@@ -4,7 +4,6 @@ export default {
   theme: {
     fontFamily: {
       sans: ["sans-serif"],
-      // Add other font families here if desired
     },
     colors: {
       background: "rgb(38,40,49)",
@@ -13,8 +12,7 @@ export default {
       yellow: "#FDCC49",
       white: "#ffffff",
       black: "#000000",
-      gray: "#ededed", // Use "gray" instead of "grey" for consistency with Tailwind
-      // Add other colors here if desired
+      gray: "#ededed",
     },
     extend: {
       clipPath: {
