@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="h-[57vh] lg:h-[20rem] w-full bg-background flex flex-col justify-between lg:justify-center items-center lg:py-0 py-[11rem]">
       <div className="h-[10rem] w-full lg:flex-row flex-col gap-3 flex items-center justify-center lg:justify-around">
         <div
-          className="logo font-[1000] font-[oswald,sans] uppercase text-white text-[30px] bg-red min-w-[10rem] flex items-center justify-center border-[4px] border-yellow rounded-[2px] p-2"
+          className="logo font-[1000] font-[oswald,sans] uppercase text-white text-[30px] bg-background min-w-[10rem] flex items-center justify-center border-[5px] border-yellow rounded-[2px] p-2"
           style={{
             clipPath:
               "polygon(25% 0%, 100% 0, 100% 50%, 83% 100%, 0 100%, 0% 50%)",
