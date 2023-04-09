@@ -2,12 +2,12 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="h-screen w-full flex flex-col items-center justify-around bg-red/80 text-white">
+    <div className="h-screen w-full flex flex-col items-center justify-around bg-background/90 text-yellow">
       <div
         className="flex flex-col justify-center items-center w-full
       ">
         <h1 className="uppercase italic font-[1000] text-[10rem] font-sans z-1">
-        just  Game
+          just Game
         </h1>
         <span>V1.</span>
         <div className="flex w-full h-[10rem] items-center justify-center gap-x-10">
