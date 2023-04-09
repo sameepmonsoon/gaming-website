@@ -1,6 +1,5 @@
 import React from "react";
 import image from "../../assets/gaming.png";
-import gamer from "../../assets/gamer.png";
 import { RiCoinsLine, SiGamejolt } from "react-icons/all";
 const MidSection = () => {
   return (

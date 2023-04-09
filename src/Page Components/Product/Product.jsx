@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../../components/Card/Card";
 import image from "../../assets/gaming.png";
-import image1 from "../../assets/min.png";
+import image1 from "../../assets/midsecton.png";
 const Product = () => {
   return (
     <div className="h-full w-full flex flex-col justify-start items-center bg-background/90 text-white gap-20">
@@ -17,21 +17,21 @@ const Product = () => {
         />
         <Card
           image={image1}
-          productName={"Controler"}
+          productName={"Controller"}
           price={"Rs 2000"}
-          productBrand={"Nvdia"}
+          productBrand={"Sony"}
+        />
+        <Card
+          image={image}
+          productName={"Controller"}
+          price={"Rs 2000"}
+          productBrand={"Sony"}
         />
         <Card
           image={image1}
-          productName={"Controler"}
+          productName={"Controller"}
           price={"Rs 2000"}
-          productBrand={"Nvdia"}
-        />
-        <Card
-          image={image1}
-          productName={"Controler"}
-          price={"Rs 2000"}
-          productBrand={"Nvdia"}
+          productBrand={"X-box"}
         />
       </div>
     </div>

@@ -81,7 +81,7 @@ const Navbar = (props) => {
               key={index}
               className="group  relative h-[4rem] w-full cursor-pointer hover:bg-gray/10  text-[17px] font-bold text-white flex items-center justify-center ">
               {name}
-              <span className="group-hover:h-[4px] group-hover:bg-red w-full absolute left-0 bottom-0 h-0">
+              <span className="group-hover:h-[4px] group-hover:bg-yellow w-full absolute left-0 bottom-0 h-0">
                 &nbsp;
               </span>
             </li>

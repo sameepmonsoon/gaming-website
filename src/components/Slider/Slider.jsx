@@ -1,9 +1,5 @@
 import React, { useState } from "react";
-import {
-  TbArrowBadgeLeft,
-  VscCircleFilled,
-  MdOutlineDoubleArrow,
-} from "react-icons/all";
+import { VscCircleFilled, MdOutlineDoubleArrow } from "react-icons/all";
 
 const Slider = (props) => {
   const { images } = props;
