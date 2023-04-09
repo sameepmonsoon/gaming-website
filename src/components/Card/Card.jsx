@@ -4,7 +4,7 @@ import { HiOutlineHeart } from "react-icons/hi2";
 const Card = (props) => {
   const { image, productName, price, productBrand } = props;
   return (
-    <div className="h-[20rem] w-[30rem] p-4 gap-y-5 sm:h-[35rem] sm:w-[28rem] flex flex-col justify-start items-start ">
+    <div className="h-[30rem] w-[20rem] p-4 gap-y-5 sm:h-[35rem] sm:w-[28rem] flex flex-col justify-start items-start ">
       <p className=" w-full h-3/5 bg-background cursor-pointer hover:border-gray/40 rounded-[10px] overflow-hidden border-[1px] border-gray/30">
         <img src={image} alt="" className="h-full w-full rounded-md" />
       </p>

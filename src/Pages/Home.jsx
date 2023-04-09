@@ -9,7 +9,7 @@ import Footer from "../Page Components/Footer/Footer";
 const Home = () => {
   const links = ["Home", "tournament", "team", "gear", "about", "contact"];
   return (
-    <div>
+    <div className="overflow-hidden ">
       <Navbar links={links} />
       <Hero />
       <MidSection />

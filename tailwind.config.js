@@ -3,7 +3,7 @@ export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      sans: ["Oswald", "sans-serif"],
+      sans: ["sans-serif"],
       // Add other font families here if desired
     },
     colors: {

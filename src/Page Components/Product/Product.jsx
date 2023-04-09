@@ -4,11 +4,11 @@ import image from "../../assets/gaming.png";
 import image1 from "../../assets/min.png";
 const Product = () => {
   return (
-    <div className="h-screen w-full flex flex-col justify-start items-center bg-background/90 text-white gap-20">
-      <h1 className="text-7xl font-[1000] leading-[10rem] font-sans uppercase border-b-4 border-b-red">
+    <div className="h-full w-full flex flex-col justify-start items-center bg-background/90 text-white gap-20">
+      <h1 className="text-2xl sm:text-[5xl] lg:text-7xl font-[1000] leading-[5rem] sm:leading-[10rem] font-sans uppercase border-b-4 border-b-red">
         Check <span className="text-yellow">our products</span>
       </h1>
-      <div className="flex justify-start items-center gap-x-10 w-[90%]">
+      <div className="flex lg:flex-row flex-col justify-start items-center gap-x-1 w-[100%] flex-wrap px-10">
         <Card
           image={image}
           productName={"Gaming"}
